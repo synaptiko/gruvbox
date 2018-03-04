@@ -479,9 +479,9 @@ if version >= 700
   hi! link CursorColumn CursorLine
 
   " Tab pages line filler
-  call s:HL('TabLineFill', s:bg4, s:bg1, s:invert_tabline)
+  call s:HL('TabLineFill', s:fg3, s:none, s:invert_tabline)
   " Active tab page label
-  call s:HL('TabLineSel', s:green, s:bg1, s:invert_tabline)
+  call s:HL('TabLineSel', s:bg1, s:fg3, s:invert_tabline)
   " Not active tab page label
   hi! link TabLine TabLineFill
 
