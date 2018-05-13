@@ -749,9 +749,9 @@ let g:niji_light_colours = g:rbpt_colorpairs
 " GitGutter: {{{
 
 hi! link GitGutterAdd GruvboxGreenSign
-hi! link GitGutterChange GruvboxAquaSign
+hi! link GitGutterChange GruvboxBlueSign
 hi! link GitGutterDelete GruvboxRedSign
-hi! link GitGutterChangeDelete GruvboxAquaSign
+hi! link GitGutterChangeDelete GruvboxBlueSign
 
 " }}}
 " GitCommit: "{{{
@@ -895,7 +895,7 @@ call s:HL('multiple_cursors_visual', s:none, s:bg2)
 
 hi! link diffAdded GruvboxGreen
 hi! link diffRemoved GruvboxRed
-hi! link diffChanged GruvboxAqua
+hi! link diffChanged GruvboxBlue
 
 hi! link diffFile GruvboxOrange
 hi! link diffNewFile GruvboxYellow
